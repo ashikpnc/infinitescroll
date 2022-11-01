@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+background-color: white;
+}
+.header_wrap {
+  height: 73px;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header_title {
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+}
+.logout {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.logout svg {
+  fill: #000000;
+  height: 25px;
+}
+@media all and (max-width: 480px) and (min-width: 320px) {
+}
